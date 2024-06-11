@@ -33,7 +33,7 @@ const HomePage = () => {
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link onClick={() => setShowProductList(true)}>List Product</Nav.Link>
-              <Nav.Link href="/product">Product Detail</Nav.Link>
+              {/* <Nav.Link href="/product">Product Detail</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -108,7 +108,7 @@ const HomePage = () => {
                   <ul style={{ listStyleType: 'none', padding: 0 }}>
                     <li><a href="/" style={{ color: '#fff', textDecoration: 'none' }}>Home</a></li>
                     <li><a href="#!" style={{ color: '#fff', textDecoration: 'none' }}>List Product</a></li>
-                    <li><a href="#!" style={{ color: '#fff', textDecoration: 'none' }}>Product Detail</a></li>
+                    {/* <li><a href="#!" style={{ color: '#fff', textDecoration: 'none' }}>Product Detail</a></li> */}
                   </ul>
                 </Col>
                 <Col md={4}>

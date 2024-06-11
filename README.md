@@ -5,7 +5,6 @@
 ## Daftar Isi
 
 - [Fitur](#fitur)
-- [Screenshots](#screenshots)
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
 - [Struktur Proyek](#struktur-proyek)

@@ -141,7 +141,7 @@ function ProductList() {
                 </Card.Body>
                 <Card.Footer className="d-flex justify-content-between align-items-center">
                   <Link to={`/product/${product.id}`} className="btn btn-success stretched-link">Detail</Link>
-                  <Button variant="danger" onClick={() => handleDelete(product.id)}>Delete</Button>
+                  {/* <Button variant="danger" onClick={() => handleDelete(product.id)}>Delete</Button> */}
                 </Card.Footer>
               </Card>
             </div>
